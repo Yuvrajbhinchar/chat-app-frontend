@@ -1,6 +1,6 @@
 import React from 'react';
 
-function Login() {
+function LoginPage() {
     return (
         <>
             <div className="h-screen bg-gradient-to-r from-purple-300 to-purple-600 flex items-center justify-center">
@@ -44,4 +44,4 @@ function Login() {
     );
 }
 
-export default Login;
+export default LoginPage;
