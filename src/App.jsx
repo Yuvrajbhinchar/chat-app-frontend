@@ -1,10 +1,10 @@
-
+import Login from "./pages/login"
 function App() {
  
 
   return (
     <>
-     <h1>hello</h1>
+     <Login/>
     </>
   )
 }
