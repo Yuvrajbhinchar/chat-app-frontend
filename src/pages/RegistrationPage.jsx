@@ -8,30 +8,6 @@ const RegistrationPage = () => {
         
         <form className="space-y-6">
           <div>
-            <label htmlFor="firstName" className="block text-gray-700 font-medium">
-              First Name
-            </label>
-            <input
-              type="text"
-              id="firstName"
-              className="w-full mt-2 px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-purple-500"
-              placeholder="Enter your first name"
-            />
-          </div>
-
-          <div>
-            <label htmlFor="lastName" className="block text-gray-700 font-medium">
-              Last Name
-            </label>
-            <input
-              type="text"
-              id="lastName"
-              className="w-full mt-2 px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-purple-500"
-              placeholder="Enter your last name"
-            />
-          </div>
-
-          <div>
             <label htmlFor="username" className="block text-gray-700 font-medium">
               Username
             </label>
@@ -42,19 +18,6 @@ const RegistrationPage = () => {
               placeholder="Choose a username"
             />
           </div>
-
-          <div>
-            <label htmlFor="email" className="block text-gray-700 font-medium">
-              Email
-            </label>
-            <input
-              type="email"
-              id="email"
-              className="w-full mt-2 px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-purple-500"
-              placeholder="Enter your email"
-            />
-          </div>
-
           <div>
             <label htmlFor="contact" className="block text-gray-700 font-medium">
               Contact No.
